@@ -1,13 +1,17 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import Layout from '../../Layout';
+
+import './Styles.css';
+
+import Loginform from './components/LoginForm';
 
 const Home: React.FC = () => {
 
   return (
     <Layout>
       <>
-        <h1>Teste</h1>
+        <Loginform />
       </>
     </Layout>
   );
